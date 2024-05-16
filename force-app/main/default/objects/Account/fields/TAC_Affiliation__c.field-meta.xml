@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_Affiliation__c</fullName>
+    <externalId>false</externalId>
+    <label>所属組織</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>法人協会</fullName>
+                <default>false</default>
+                <label>法人協会</label>
+            </value>
+            <value>
+                <fullName>青年部</fullName>
+                <default>false</default>
+                <label>青年部</label>
+            </value>
+            <value>
+                <fullName>４Hクラブ</fullName>
+                <default>false</default>
+                <label>４Hクラブ</label>
+            </value>
+            <value>
+                <fullName>指導農業士会</fullName>
+                <default>false</default>
+                <label>指導農業士会</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

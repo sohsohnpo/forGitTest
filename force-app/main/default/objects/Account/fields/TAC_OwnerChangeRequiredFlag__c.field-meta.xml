@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_OwnerChangeRequiredFlag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISBLANK( TAC_IkoOwnerId__c ) , false,  IF (TAC_IkoOwnerId__c   &lt;&gt;  Owner.TAC_ExternalSystemUserId__c, true, false))</formula>
+    <label>所有者変更必要フラグ</label>
+    <type>Checkbox</type>
+</CustomField>

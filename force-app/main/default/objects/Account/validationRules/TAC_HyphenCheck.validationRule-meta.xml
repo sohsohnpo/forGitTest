@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_HyphenCheck</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(CONTAINS( Phone,&quot;-&quot;) ,CONTAINS( TAC_MobilePhone__c ,&quot;-&quot;) )</errorConditionFormula>
+    <errorMessage>電話・携帯番号はハイフンなしで入力してください</errorMessage>
+</ValidationRule>

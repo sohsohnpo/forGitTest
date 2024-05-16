@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_ManagementIndex__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>経営指標</label>
+    <referenceTo>TAC_ManagementIndex__c</referenceTo>
+    <relationshipLabel>担い手情報</relationshipLabel>
+    <relationshipName>TAC_ManagementIndexs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

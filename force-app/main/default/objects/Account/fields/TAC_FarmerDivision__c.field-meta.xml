@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_FarmerDivision__c</fullName>
+    <externalId>false</externalId>
+    <label>経営形態</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>農業法人</fullName>
+                <default>false</default>
+                <label>農業法人</label>
+            </value>
+            <value>
+                <fullName>農事組合</fullName>
+                <default>false</default>
+                <label>農事組合</label>
+            </value>
+            <value>
+                <fullName>集落営農組織</fullName>
+                <default>false</default>
+                <label>集落営農組織</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

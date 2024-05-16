@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_Address__c</fullName>
+    <description>リストビュー表示用</description>
+    <externalId>false</externalId>
+    <formula>IF ( OR(BillingPostalCode &lt;&gt;&quot;&quot;,BillingState  &lt;&gt;&quot;&quot;,BillingCity  &lt;&gt;&quot;&quot;,BillingStreet&lt;&gt;&quot;&quot;) , 
+IF(BillingPostalCode &lt;&gt;&quot;&quot;,&quot;〒&quot; &amp; LEFT(BillingPostalCode, 3) &amp; &quot;-&quot;&amp; RIGHT(BillingPostalCode,4) &amp; &quot; &quot;,&quot;&quot;)  
+&amp; IF(BillingState &lt;&gt; &quot;&quot;, BillingState  &amp; &quot; &quot;, &quot;&quot;) 
+&amp; IF(BillingCity &lt;&gt; &quot;&quot;, BillingCity  &amp; &quot; &quot;, &quot;&quot;) 
+&amp; IF(BillingStreet &lt;&gt; &quot;&quot;, BillingStreet, &quot;&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>住所</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

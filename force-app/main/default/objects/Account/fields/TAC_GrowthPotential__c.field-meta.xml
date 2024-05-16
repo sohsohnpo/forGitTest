@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_GrowthPotential__c</fullName>
+    <externalId>false</externalId>
+    <label>成長性</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>経営拡大</fullName>
+                <default>false</default>
+                <label>経営拡大</label>
+            </value>
+            <value>
+                <fullName>新規就農</fullName>
+                <default>false</default>
+                <label>新規就農</label>
+            </value>
+            <value>
+                <fullName>安定</fullName>
+                <default>false</default>
+                <label>安定</label>
+            </value>
+            <value>
+                <fullName>経営縮小</fullName>
+                <default>false</default>
+                <label>経営縮小</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

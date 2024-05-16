@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_OwnerManualChagedFlag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>TRUE：ページ画面で手動変更</description>
+    <externalId>false</externalId>
+    <label>所有者手動変更済みフラグ</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

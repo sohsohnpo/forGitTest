@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_ZenkakuCheckDistrict</fullName>
+    <active>true</active>
+    <description>全角文字で入力されているか確認する
+対象項目：地区</description>
+    <errorConditionFormula>IF ( ISBLANK ( TAC_District__c ), FALSE, REGEX( TAC_District__c , &quot;^[ｦ-ﾟ]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>TAC_District__c</errorDisplayField>
+    <errorMessage>全角文字で入力してください。</errorMessage>
+</ValidationRule>

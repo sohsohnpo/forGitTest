@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_MaterialCommittee__c</fullName>
+    <externalId>false</externalId>
+    <label>資格・属性</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>認定農業者</fullName>
+                <default>false</default>
+                <label>認定農業者</label>
+            </value>
+            <value>
+                <fullName>エコファーマー</fullName>
+                <default>false</default>
+                <label>エコファーマー</label>
+            </value>
+            <value>
+                <fullName>GAP認証</fullName>
+                <default>false</default>
+                <label>GAP認証</label>
+            </value>
+            <value>
+                <fullName>有機JAS</fullName>
+                <default>false</default>
+                <label>有機JAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

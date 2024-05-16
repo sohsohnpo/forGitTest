@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_ZenkakuCheckName</fullName>
+    <active>true</active>
+    <description>全角文字で入力されているか確認する
+対象項目：名称</description>
+    <errorConditionFormula>IF( RecordType.Name =&quot;01.個人&quot;,FALSE, IF ( ISBLANK (Name), FALSE, NOT( REGEX(  Name , &quot;^[^ -~｡-ﾟ]*$&quot;))) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>全角文字で入力してください。</errorMessage>
+</ValidationRule>

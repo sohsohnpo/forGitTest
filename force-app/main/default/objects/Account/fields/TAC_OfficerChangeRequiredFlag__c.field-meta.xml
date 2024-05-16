@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TAC_OfficerChangeRequiredFlag__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISBLANK( TAC_IkoOfficerId__c) , false,  IF (TAC_IkoOfficerId__c&lt;&gt;   TAC_Officer__r.TAC_ExternalSystemUserId__c , true, false))</formula>
+    <label>主担当者変更必要フラグ</label>
+    <type>Checkbox</type>
+</CustomField>
