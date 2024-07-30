@@ -1,1 +1,1 @@
-only ssssssccccssssddsssscccxx
+only sssss
