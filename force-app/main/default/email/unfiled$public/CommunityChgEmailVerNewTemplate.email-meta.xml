@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>メールの変更時にユーザーが新しいメールで受信するメール</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Experience Cloud: 新しいメール - メールの変更確認</name>
+    <style>none</style>
+    <subject>{!Community_Name} アカウントのメールアドレスの変更が完了しました</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MyAccounts</fullName>
-    <booleanFilter>1 OR 2</booleanFilter>
-    <columns>ACCOUNT.NAME</columns>
-    <columns>ACCOUNT.ADDRESS2_CITY</columns>
-    <columns>ACCOUNT.ADDRESS2_STATE</columns>
-    <columns>ACCOUNT.ADDRESS2_COUNTRY</columns>
-    <columns>ACCOUNT.ADDRESS2_ZIP</columns>
-    <columns>ACCOUNT.PHONE1</columns>
-    <columns>TAC_ContinueOrEnd__c</columns>
-    <filterScope>Everything</filterScope>
-    <filters>
-        <field>TAC_ContinueOrEnd__c</field>
-        <operation>equals</operation>
-        <value>終了</value>
-    </filters>
-    <filters>
-        <field>TAC_DeleteFlag__c</field>
-        <operation>equals</operation>
-        <value>1</value>
-    </filters>
-    <label>終了した担い手情報</label>
+    <filterScope>Mine</filterScope>
+    <label>My Accounts</label>
 </ListView>

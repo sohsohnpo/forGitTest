@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>FinancialServices</category>
+    <lightningBoltFeatures>
+        <order>1</order>
+        <title>test</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>X1719537003792</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>MYApp</name>
+        <type>CustomApplication</type>
+    </lightningBoltItems>
+    <masterLabel>light botテスト</masterLabel>
+    <publisher>ｓｓｓ</publisher>
+    <summary>ｓｓｓ</summary>
+</LightningBolt>

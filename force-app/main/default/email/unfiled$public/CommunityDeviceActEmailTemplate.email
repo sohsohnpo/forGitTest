@@ -1,0 +1,12 @@
+最近、あなたは {!Community_Name} でアクションを試行しました。
+        アクション: {!Action}
+
+        ブラウザー: {!Browser}
+        OS: {!Operating_System}
+        ユーザー名: {!Receiving_User.Username}
+
+        アカウントのセキュリティを確保するために、本人確認させてください。{!Community_Name} に促されたら、次のコードを入力してください。
+
+        確認コード: {!Verification_Code}
+
+        Salesforce で {!Community_Name} を試みていない場合や、このブラウザーまたはオペレーティングシステムに見覚えがない場合は、{!Community_Name} 管理者にご連絡ください。

@@ -1,0 +1,8 @@
+{!User.FirstName} 様
+
+            ユーザー名 {!User.Username} のメールアドレスの変更要求を受け取りました。次の変更内容が正しいことを確認してください。
+
+            以前のメールアドレス: {!ChgEmailVer.OldEmail}
+            新しいメールアドレス: {!ChgEmailVer.NewEmail}
+
+            この変更を要求していない場合は、{!Community_Name} の管理者にお問い合わせいただくか、このメールに返信してください。

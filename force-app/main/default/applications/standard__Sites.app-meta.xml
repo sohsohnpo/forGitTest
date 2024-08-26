@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>CustomObject1__c</tabs>
+    <tabs>VF_Tab1</tabs>
+    <tabs>X500Obj__c</tabs>
+    <tabs>PLtest</tabs>
+    <tabs>PipeLineKannTest__c</tabs>
+</CustomApplication>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- MYアプリケーション --></label>
+        <name>MYApp</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Pipelineアプリケーション --></label>
+        <name>Pipeline</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- テスト項目 --></label>
+        <name>TEST_Field1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 日本語カスタムラベル --></label>
+        <name>customlabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test --></label>
+        <name>pipelineTest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test --></label>
+        <name>pipelineTest2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test --></label>
+        <name>pipelineTest3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test --></label>
+        <name>pipelineTest4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test --></label>
+        <name>pipelineTest5</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- PLtest --></label>
+        <name>PLtest</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- テストタブト --></label>
+        <name>VF_Tab1</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>PLtest</name>
+            </screens>
+        </flows>
+        <fullName>PLtest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PolicyCondition_GDOLhvTgYzPODOMGoLuw</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PolicyCondition_LAdfcEKgEFQoDOaWBgvl</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PolicyCondition_NsmKskEhLXHVAkQlpdjW</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>PolicyCondition_gUpFuKeFkEXxNymtiJOd</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>UniqueName</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>test1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>tttt</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- レポートタイプカスタム --></description>
+        <label><!-- レポートタイプカスタム --></label>
+        <name>CustomReportType1</name>
+        <sections>
+            <label><!-- pipeカスタムオブジェクト --></label>
+            <name>pipeカスタムオブジェクト</name>
+        </sections>
+        <sections>
+            <label><!-- カスタムオブジェクト --></label>
+            <name>カスタムオブジェクト</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポート11 --></description>
+        <label><!-- テストレポート11 --></label>
+        <name>CustomReportType11</name>
+        <sections>
+            <label><!-- Chatter ユニーク寄稿者メトリクス (日次) --></label>
+            <name>Chatter ユニーク寄稿者メトリクス (日次)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポートタイプ --></description>
+        <label><!-- テストレポートタイプ --></label>
+        <name>CustomReportType55</name>
+        <sections>
+            <label><!-- pipeカスタムオブジェクト --></label>
+            <name>pipeカスタムオブジェクト</name>
+        </sections>
+        <sections>
+            <label><!-- カスタムオブジェクト --></label>
+            <name>カスタムオブジェクト</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- パートナー資金リクエストおよびパートナー資金要求 --></description>
+        <label><!-- パートナー資金リクエストおよびパートナー資金要求 --></label>
+        <name>MDF_Claim_Request_Crt</name>
+        <sections>
+            <label><!-- パートナー資金リクエスト --></label>
+            <name>パートナー資金リクエスト</name>
+        </sections>
+        <sections>
+            <label><!-- パートナー資金要求 --></label>
+            <name>パートナー資金要求</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポート11sss --></description>
+        <label><!-- テストレポート11sss --></label>
+        <name>X11</name>
+        <sections>
+            <label><!-- Chatter ユニーク寄稿者メトリクス (日次) --></label>
+            <name>Chatter ユニーク寄稿者メトリクス (日次)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポート2 --></description>
+        <label><!-- テストレポート2 --></label>
+        <name>X2</name>
+        <sections>
+            <label><!-- AI レコードインサイト --></label>
+            <name>AI レコードインサイト</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポートタイプ22 --></description>
+        <label><!-- テストレポートタイプ22 --></label>
+        <name>X22</name>
+        <sections>
+            <label><!-- Is Unified Messaging Enabled --></label>
+            <name>Is Unified Messaging Enabled</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- テストレポート222 --></description>
+        <label><!-- テストレポート222 --></label>
+        <name>X222</name>
+        <sections>
+            <label><!-- AI レコードインサイト --></label>
+            <name>AI レコードインサイト</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- オーケストレーション実行 (Spring &apos;24) --></description>
+        <label><!-- オーケストレーション実行 (Spring &apos;24) --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- オーケストレーション実行 --></label>
+            <name>オーケストレーション実行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- オーケストレーションフェーズ実行 (Spring &apos;24) --></description>
+        <label><!-- オーケストレーションフェーズ実行 (Spring &apos;24) --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- オーケストレーションフェーズ実行 --></label>
+            <name>オーケストレーションフェーズ実行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- オーケストレーションステップ実行 (Spring &apos;24) --></description>
+        <label><!-- オーケストレーションステップ実行 (Spring &apos;24) --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- オーケストレーションステップ実行 --></label>
+            <name>オーケストレーションステップ実行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- オーケストレーション作業項目 (Spring &apos;24) --></description>
+        <label><!-- オーケストレーション作業項目 (Spring &apos;24) --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- オーケストレーションステップ実行:Label --></label>
+                <name>オーケストレーションステップ実行:Label</name>
+            </columns>
+            <columns>
+                <label><!-- オーケストレーションステップ実行:Name --></label>
+                <name>オーケストレーションステップ実行:Name</name>
+            </columns>
+            <columns>
+                <label><!-- オーケストレーションステップ実行:Status --></label>
+                <name>オーケストレーションステップ実行:Status</name>
+            </columns>
+            <label><!-- オーケストレーションステップ実行 --></label>
+            <name>オーケストレーションステップ実行</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- 割り当て先User --></label>
+                <name>割り当て先User</name>
+            </columns>
+            <columns>
+                <label><!-- 割り当て先グループまたはキュー --></label>
+                <name>割り当て先グループまたはキュー</name>
+            </columns>
+            <label><!-- オーケストレーション作業項目 --></label>
+            <name>オーケストレーション作業項目</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- パートナー資金リクエスト --></description>
+        <label><!-- パートナー資金リクエスト --></label>
+        <name>prm_partner_fund_request_crt</name>
+        <sections>
+            <label><!-- パートナー資金リクエスト --></label>
+            <name>パートナー資金リクエスト</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- パートナーマーケティング予算 --></description>
+        <label><!-- パートナーマーケティング予算 --></label>
+        <name>prm_partner_marketing_budget_crt</name>
+        <sections>
+            <label><!-- パートナーマーケティング予算 --></label>
+            <name>パートナーマーケティング予算</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Experience Cloud サイトユーザーのログイン履歴 --></description>
+        <label><!-- Experience Cloud サイトユーザーのログイン履歴 --></label>
+        <name>prm_total_portal_login_crt</name>
+        <sections>
+            <label><!-- ネットワーク --></label>
+            <name>ネットワーク</name>
+        </sections>
+        <sections>
+            <label><!-- ネットワークメンバー --></label>
+            <name>ネットワークメンバー</name>
+        </sections>
+        <sections>
+            <label><!-- ログイン履歴 --></label>
+            <name>ログイン履歴</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- ユーザーの詳細 --></description>
+        <label><!-- ユーザーの詳細 --></label>
+        <name>prm_unique_portal_crt</name>
+        <sections>
+            <label><!-- ユーザー --></label>
+            <name>ユーザー</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

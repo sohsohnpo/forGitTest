@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalDataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customConfiguration>{&quot;DataCatalog&quot;:&quot;AwsDataCatalog&quot;,&quot;CacheResults&quot;:&quot;false&quot;,&quot;CachedResultsMaxAgeInMinutes&quot;:&quot;60&quot;,&quot;timeout&quot;:&quot;120&quot;}</customConfiguration>
+    <isWritable>false</isWritable>
+    <label>外部データソース</label>
+    <namedCredential>targetLoginInfo</namedCredential>
+    <principalType>Anonymous</principalType>
+    <protocol>NoAuthentication</protocol>
+    <type>AmazonAthena</type>
+</ExternalDataSource>
