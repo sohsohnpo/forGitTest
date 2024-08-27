@@ -4,7 +4,7 @@
         <fullName>TEST_Field1</fullName>
         <language>ja</language>
         <protected>true</protected>
-        <shortDescription>テスト項目カスタムラベル修正</shortDescription>
+        <shortDescription>テスト項目カスタムラベル修正PL-KannTest</shortDescription>
         <value>helllo</value>
     </labels>
     <labels>
