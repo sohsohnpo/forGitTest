@@ -1,3 +1,5 @@
-trigger account on CollaborationGroupMember (before insert) {
-
+trigger AccountTrigger on Account (before insert) {
+    for (Account acc : Trigger.new) {
+        acc.Name = acc.Name.toUpperCase();
+    }
 }

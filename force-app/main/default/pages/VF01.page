@@ -1,2 +1,19 @@
-<apex:page >
+<apex:page controller="SimpleFormController">
+    <apex:form>
+        <apex:pageBlock title="Simple Form">
+            <apex:pageBlockSection columns="1">
+                <!-- 输入字段 -->
+                <apex:inputText label="Enter Your Name" value="{!name}" />
+                <apex:inputText label="Enter Your Age" value="{!age}" />
+
+                <!-- 提交按钮 -->
+                <apex:commandButton value="Submit" action="{!submitForm}" />
+            </apex:pageBlockSection>
+            
+            <!-- 显示结果 -->
+            <apex:pageBlockSection title="Result" columns="1">
+                <apex:outputText value="{!result}" rendered="{!NOT(ISBLANK(result))}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
 </apex:page>
