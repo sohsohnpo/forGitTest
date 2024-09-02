@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>false</active>
         <ruleEntry>
-            <assignedTo>ss-pipelinecloud@sohsoh.co.jp</assignedTo>
+            <assignedTo>ss-pipelinecloud@sohsoh.co.jp999</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>

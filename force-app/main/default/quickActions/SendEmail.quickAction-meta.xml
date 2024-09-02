@@ -5,7 +5,7 @@
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
             <quickActionLayoutItems>
-                <emptySpace>false</emptySpace>
+                <emptySpace>true</emptySpace>
                 <field>ValidatedFromAddress</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>

@@ -30,7 +30,7 @@
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
-            <value>test</value>
+            <value>test11111</value>
         </criteriaItems>
     </entryCriteria>
     <finalApprovalRecordLock>true</finalApprovalRecordLock>
