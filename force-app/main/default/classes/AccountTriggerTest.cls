@@ -3,7 +3,7 @@ public class AccountTriggerTest {
     @isTest
     static void testAccountNameToUpperCase() {
         Account testAccount = new Account(Name = 'test account');
-        insert testAccount;
+        insert testAccount;//cicd
 
         Account insertedAccount = [SELECT Name FROM Account WHERE Id = :testAccount.Id];
         System.assertEquals('TEST ACCOUNT', insertedAccount.Name);
